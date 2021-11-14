@@ -1,0 +1,49 @@
+h1 {
+    color: red;
+}
+
+section h2 {
+    color: cadetblue;
+}
+
+h2 {
+    color: blue;
+}
+
+section p {
+    color: aquamarine;
+}
+
+#koumoku01 {
+    background-color: green;
+}
+
+.orange_text {
+    background-color: orange;
+}
+
+.big_text {
+    font-size: 36px;
+    text-decoration: underline;
+}
+
+ul li a {
+    color: rgb(43, 226, 104);
+    text-decoration: none;
+    transition: 1s;
+}
+
+ul li a:visited {
+    color: rgb(43, 226, 171);
+}
+
+ul li a:hover {
+    color: orange;
+    text-decoration: underline;
+    
+}
+
+ul li a:active {
+    color: rgb(255, 0, 0);
+    text-decoration: underline;
+}

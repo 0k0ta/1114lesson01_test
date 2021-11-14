@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="サイトの説明文120文字程度">
+    <title>lesson02html練習</title>
+</head>
+<body>
+    <div id="container" style="border: solid 10px yellow; ">
+        <header>
+            <h1>ロゴ画像やタイトルに相当するもの</h1>
+            <nav>
+                <ul>
+                    <li><a href="">会社情報</a></li>
+                    <li><a href="">事業情報</a></li>
+                    <li><a href="">csr</a></li>
+                    <li><a href="">お問い合わせ</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <article>
+                <header>
+                    <h2>articleとしての見出しh2~h6</h2>
+                </header>
+
+                <section>
+                    <h2>sectionとしての見出しh2~h6</h2>
+                    <p>説明文章</p>
+                    <h3>小見出し01</h3>
+                    <h3>小見出し02</h3>
+                </section>
+
+                <section>
+                    <h2>sectionとしての見出しh2~h6</h2>
+                    <p>説明文章</p>
+                    <div style="background: blue;">
+                        <h3>小見出し<span style="color: royalblue;">01</span></h3>
+                        <h3>小見出し02</h3>
+                    </div>
+                </section>
+
+                <footer>
+                    お問い合わせボタンなど
+                </footer> 
+            </article>
+            <aside>
+                サイドバー
+            </aside>
+        </main>
+        <footer>
+            <address>
+                著作者の連絡先全般をマークアップするもの。<br>
+                住所<br>
+                電話番号<br>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3240.090531212238!2d139.76305921520088!3d35.69938973658335!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188c19eafeb779%3A0xf69f1e715e53cb1f!2z5b6h6Iy244OO5rC06aeF!5e0!3m2!1sja!2sjp!4v1632625470750!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </address>
+            <small>&copy; 2021 kota.com</small>
+        </footer>
+    </div>
+</body>
+</html>
+
+<!-- 
+◆ブロック要素
+ブロックの様に縦に積み上がる要素
+置いた時点で改行される
+例：インライン要素以外全部
+・cssで横幅と高さの指定ができる
+
+◆インライン要素（10個くらい）
+テキストの様に横に並んで行く要素
+置いた時点で横にならぶ
+例：a,em,strong,small,input,span,iframe・・・
+・cssで横幅と高さの指定ができない
+-->

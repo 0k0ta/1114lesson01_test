@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta >
+    <title>お問い合わせフォーム</title>
+</head>
+<body>
+    <h1>お問い合わせフォーム</h1>
+    <!-- post getメソッドの違い
+        post
+        大量のデータを送ることができる
+
+    -->
+    <form action="送り先のURL" method="post と get">
+        <div>
+            <!-- お名前はブラウザに表示させるためだけのテキスト。サーバー側ではなんのデータかわからない -->
+            <label>お名前：<input type="text" name="onamae" placeholder="小田 滉太"></label>
+        </div>
+        <div>
+            <label for="md">メールアドレス：</label><input type="text" name="meado" id="md">
+        </div>
+        <div>
+            <!-- valueはサーバーにデータを渡すために必要 -->
+            <input type="radio" name="gender" value="m">:男
+            <input type="radio" name="gender" value="f">:女
+        </div>
+        <div>
+            <input type="checkbox" name="area" value="tokyo">:東京
+            <input type="checkbox" name="area" value="kanagawa">:神奈川
+            <input type="checkbox" name="area" value="saitama">:埼玉
+        </div>
+        <select name="lesson">
+            <option value="html">HTML</option>
+            <option value="css">CSS</option>
+            <option value="js">JS</option>
+        </select>
+        <div>
+            <textarea name=" main-text">
+            </textarea>
+        </div>
+        <div>
+            <input type="submit" value="ボタンラベル">
+        </div>
+    </form>
+</body>
+</html>

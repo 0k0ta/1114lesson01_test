@@ -1,0 +1,90 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+h1 {
+    color: red;
+}
+
+.box01 {
+    background-color: tomato;
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    border: solid 10px yellow;
+    margin-bottom: 60px;
+}
+
+.box02 {
+    background-color: skyblue;
+    width: 200px;
+    height: 200px;
+    /* padingとborderの厚みを
+    widthとheightの内側に設定する */
+    box-sizing: border-box;
+    padding: 20px;
+    border: solid 10px yellow;
+    margin-top: 80px;
+}
+
+/* 
+上下のmarginの設定がぶつかった場合
+→値が大きな方が勝つ
+
+左右のmarginの設定がぶつかった場合
+→左右の値はたされる
+*/
+
+.text {
+    border: solid 10px red;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 40px;
+}
+
+.btn {
+    background-color: tomato;
+    display: block;
+    margin-top: 40px;
+    height: 50px;
+    width: 200px;
+    text-align: center;
+    line-height: 50px;
+    color: whitesmoke;
+    text-decoration: none;
+    border-radius: 20px;
+    transition: 0.4s;
+}
+
+.btn:hover {
+    background-color: pink;
+    color: purple;
+}
+
+.box__image {
+    background-color: pink;
+    margin-top: 40px;
+    width: 600px;
+    height: 400px;
+    background-image: url(../image/mainvisual.jpg);
+    /* 横幅が100px */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-sizing: border-box;
+    padding-top: 20px;
+}
+/*
+ブロック要素の横幅と高さの初期値（デフォルト）
+width:100%・・・親要素に対して100%広がる
+height:auto・・・・・・子要素の高さ分自動で広がる 
+ */
+ 
+ .box__title {
+     background-color: #333333;
+     color: white;
+     padding: 4px;
+     /* margin-top: 20px; */
+ }

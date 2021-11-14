@@ -1,0 +1,87 @@
+.midashi {
+    width: 50%;
+    height: auto;
+    border: solid 10px blue;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.midashi h2 {
+    border-left: solid 4px blue;
+    padding-left: 4px;
+}
+
+.btn {
+    display: block;
+    width: 30%;
+    height: 100px;
+    background-color: darkseagreen;
+    color: greenyellow;
+    text-align: center;
+    border-radius: 24px;
+    font-size: 24px;
+    line-height: 100px;
+    margin-bottom: 40px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background-color: darkgreen;
+    color:white;
+}
+
+.bg {
+    width: 60%;
+    height: 500px;
+    background-image: url(../images/mainvisual.jpg);
+    background-size: 100%;
+    padding-top: 10px;
+    background-position: center;
+}
+
+.text {
+    height: 50px;
+    /* background-color: black; */
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding-left: 10px;
+    line-height: 50px;
+}
+
+/* 
+色の指定方法
+・cssカラーキーワード
+・16進数での設定
+・rgba()での設定
+
+□rgbの色の偏りと16進数の光の強さで色を指定する
+▼光の強さ
+弱い：0123456789abcdef：強い
+例：
+#RRGGBB・・・#レッド、グリーン、ブルー
+#ffffff・・・白
+#ff0000・・・赤
+#0000ff・・・ブルー
+#ff00ff・・・紫
+#cccccc・・・グレー（明るめ）
+#444444・・・グレー（暗め）
+#000000・・・黒
+
+▼3桁の省略
+#fff・・・白
+#f00・・・赤
+#00f・・・ブルー
+#f0f・・・紫
+#ccc・・・グレー（明るめ）
+#444・・・グレー（暗め）
+#000・・・黒
+
+□rgbaによる色の指定（透過の指定ができる）
+例：
+rgba(0~255,0~255,0~255,0~1)
+rgba(255,255,255,0.5)→白（不透明度50%）
+rgba(255,0,0,0.5)→赤（不透明度50%）
+rgba(255,0,255,0.5)→紫（不透明度50%）
+
+*/
